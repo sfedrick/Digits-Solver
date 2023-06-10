@@ -2,3 +2,5 @@
 My solution to the https://www.nytimes.com/games/digits daily puzzle game. 
 
 I made this because I am an extremely bad loser. After having having my girlfriend beat me everytime we played digits, I decided that enough was enough and it was time to automate this game. Now you may notice after a quick google search that there are other better digit solvers out there see https://github.com/jltorresm/digits, but using another geeks code to win felt cheap. Afterall, I may be a cheater, but I'm not that kind of cheater, if you catch my drift. Anyways, I solved it assuming the solution follows a string of consecutive operations one after the other. In actuality, the solution need not be a chain. You could have a solution to digits where you perform an operation on two numbers and then on another two and then got to your target by performing an operation on those two resultants. In practice, I have not run into a daily digits that could not be solved using a string of consecutive operations, so I consider this solved. I may come back and add this feature later though if I don't have anything better to do.
+
+Please note that this code requires python3
